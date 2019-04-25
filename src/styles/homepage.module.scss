@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Rajdhani|Yanone+Kaffeesatz');
+
+body {
+    //font-family: 'Noto Sans', sans-serif;
+    //font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #292826;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+}
+
+.title {
+    text-align: center;
+    top: 10px;
+}
