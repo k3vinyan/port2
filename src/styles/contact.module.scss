@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.container > * {
+    flex: 1 50%;
+    height: 100vh;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9D342;
+
+    h1:nth-child(1) {
+        position: relative;
+        top: 40vh;
+    }
+
+    div:nth-child(2) {
+        position: relative;
+        top: 85vh;
+    }
+}
+
+
+
+.second-column {
+    background: #FFFFFF;
+}

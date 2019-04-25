@@ -1,15 +1,16 @@
 a {
+  color: white;
   text-decoration: none;
 }
 
 .nav-container {
     display: flex;
     justify-content: center;
-    position: fixed;
-    bottom: 30px;
-    left: 0;
-    right: 0;
-    margin: auto;
+    // position: absolute;
+    // bottom: 30px;
+    // left: 0;
+    // right: 0;
+    // margin: auto;
     
 }
 
@@ -28,11 +29,9 @@ a {
 }
 
   
-// .active-nav-item {
-//     font-weight: bold;
-//     text-decoration: underline;
-// }
-
+.active-nav-item {
+    font-weight: bold;
+}
 
 .underbar{
   width: 0;
