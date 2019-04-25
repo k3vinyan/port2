@@ -1,13 +1,23 @@
 import React from 'react';
 
-import NavList from '../components/navlist';
+import Navlist from '../components/navlist';
+
+import contactStyles from '../styles/contact.module.scss';
 
 const Contact = () => {
 
     return (
-        <div>
-            This is the contact page
-            <NavList />
+        <div className={contactStyles.container} id="contact">
+            <div className={contactStyles.firstColumn}>
+                <h1>SVG Work</h1>
+
+                <div><Navlist /></div>
+            
+            </div>
+
+            <div className={contactStyles.secondColumn}>
+               **Work goes here**
+            </div>
         </div>
     )
 };

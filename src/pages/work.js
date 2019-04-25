@@ -1,13 +1,31 @@
 import React from 'react';
 
-import Nav from '../components/navlist';
+import Navlist from '../components/navlist';
+
+import workStyles from '../styles/work.module.scss';
 
 const Work = () => {
     
     return (
-        <div>
-            This s the work page
-            <Nav />
+        <div className={workStyles.container} id="work">
+            <div className={workStyles.firstColumn}>
+                <h1>SVG Work</h1>
+
+                <div><Navlist /></div>
+            
+            </div>
+
+            <div className={workStyles.secondColumn}>
+               <div>
+                   Work One
+               </div>
+               <div>
+                   Work Two
+               </div>
+                <div>
+                    Work Three
+                </div>
+            </div>
         </div>
     )
 }
