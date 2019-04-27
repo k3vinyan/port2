@@ -22,4 +22,50 @@ body {
 .title {
     text-align: center;
     top: 10px;
+    margin: 30px;
 }
+
+.navlist-spacing {
+    margin: 0 0 20px;
+}
+
+.underbar{
+  
+    width: 0;
+    height: 5px;
+    background: rgba(100,100,200,0);
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 25px;
+    width: 0px;
+    -webkit-transition: 0.5s ease;
+  }
+  
+  li{
+  
+    margin: 0 10px;
+  
+    &:nth-of-type(1):hover ~ .underbar{
+      left: -306px;
+      width: 45px;
+      background: rgba(100,100,200,1);
+    }
+    &:nth-of-type(3):hover ~ .underbar{
+      left: -116px;
+      width: 53px;
+      background: rgba(100,100,200,1);
+    }
+    &:nth-of-type(5):hover ~ .underbar{
+      left: 75px;
+      width: 50px;
+      background: rgba(100,100,200,1);
+    }
+    &:nth-of-type(7):hover ~ .underbar{
+      left: 280px;
+      width: 70px;
+      background: rgba(100,100,200,1);
+    }
+    cursor: pointer;
+  }
