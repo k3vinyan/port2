@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div className={contactStyles.container} id="contact">
             <div className={contactStyles.firstColumn}>
-                <h1>SVG Work</h1>
+                <h1>SVG Contact</h1>
 
                 <div><Navlist /></div>
             
