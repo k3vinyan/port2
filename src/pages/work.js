@@ -17,16 +17,6 @@ const Work = () => {
 
             <div className={workStyles.secondColumn}>
                <div>
-<<<<<<< HEAD
-                   Work One
-               </div>
-               <div>
-                   Work Two
-               </div>
-                <div>
-                    Work Three
-                </div>
-=======
                     <h1>Full Stack Developer/DSF3-Flex</h1>
                     <p>Web application that help delivery facilities organize, track,, and release incoming drivers for pickup and delivery of package</p>
                     <p>Implemented a MongoDB API to stream drivers information to application allowing users to share information about drivers as they come and leave the facilities</p>
@@ -44,7 +34,6 @@ const Work = () => {
                     <p>Design to be responsive to tablet devices and various desktop resolution</p>
 
                </div>
->>>>>>> 7c1a0760610584bd75f4ede6c8f52eb81abde7f2
             </div>
         </div>
     )
