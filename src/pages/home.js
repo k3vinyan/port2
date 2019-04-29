@@ -412,12 +412,6 @@ const Home = () => {
 				</svg>
                 <h1>Web Developer</h1>
             </div>
-<<<<<<< HEAD
-=======
-			<Navlist />
-			<div className={HomepageStyle.navlistSpacing}>
-			</div>
->>>>>>> 7c1a0760610584bd75f4ede6c8f52eb81abde7f2
         </div>
     )
 }
