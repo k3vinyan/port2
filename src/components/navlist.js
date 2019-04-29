@@ -1,13 +1,5 @@
 import React from 'react';
-
-import { Link } from 'gatsby';
-
 import NavStyles from '../styles/navlist.module.scss';
-
-const handleClick = (props) => {
-    console.log(props.target)
-}
-
 
 
 const NavList = () => {
