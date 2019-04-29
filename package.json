@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "gatsby-starter-hello-world",
+=======
+  "name": "kevin-yan-portifolio",
+>>>>>>> 7c1a0760610584bd75f4ede6c8f52eb81abde7f2
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -10,7 +14,12 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+<<<<<<< HEAD
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+=======
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "heroku-postbuild": "gatsby build"
+>>>>>>> 7c1a0760610584bd75f4ede6c8f52eb81abde7f2
   },
   "dependencies": {
     "gatsby": "^2.3.16",
@@ -33,5 +42,14 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+<<<<<<< HEAD
   }
 }
+=======
+  },
+  "engines": {
+    "node": "8.10.0"
+  }
+}
+
+>>>>>>> 7c1a0760610584bd75f4ede6c8f52eb81abde7f2

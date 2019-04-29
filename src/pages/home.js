@@ -9,7 +9,7 @@ const Home = () => {
         <div className={HomepageStyle.container} id="home">
 			<Navlist />
             <div className={HomepageStyle.title}>
-                <h1>Designer, Front-end Developer & Mentor</h1>
+                <h1>Web Developer</h1>
             </div>
 			<p>I design and code beautifully simple things, and I love what I do.</p>
 			<h1>Makeven Yan</h1>
@@ -412,6 +412,12 @@ const Home = () => {
 				</svg>
                 <h1>Web Developer</h1>
             </div>
+<<<<<<< HEAD
+=======
+			<Navlist />
+			<div className={HomepageStyle.navlistSpacing}>
+			</div>
+>>>>>>> 7c1a0760610584bd75f4ede6c8f52eb81abde7f2
         </div>
     )
 }
