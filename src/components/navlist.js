@@ -11,19 +11,19 @@ const NavList = () => {
                 <nav>
                     <ul className={NavStyles.navList}>
                         <li>
-                            <a href="#home">Home</a>
+                            <a href="#home">HOME</a>
                         </li>
                         <li className={NavStyles.navUpperslashPosition}><span>|</span></li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#about">ABOUT</a>
                         </li>
                         <li className={NavStyles.navUpperslashPosition}><span>|</span></li>
                         <li>
-                            <a href="#project">Projects</a>
+                            <a href="#project">PROJECTS</a>
                         </li>
                         <li className={NavStyles.navUpperslashPosition}><span>|</span></li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#contact">CONTACT</a>
                         </li>
                         <div className={NavStyles.underbar}></div>
                     </ul>

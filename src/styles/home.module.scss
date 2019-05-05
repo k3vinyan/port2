@@ -16,6 +16,10 @@
     font-size: 50px;
     color: #FFFFFF;
     text-align: center;
+    
+    p {
+      padding: 0 100px 0 100px;
+    }
   
   }
 
@@ -35,64 +39,42 @@
   }
 }
 
-
-@media (max-width: 420px){
-
-  .main-container {
-    .para-container {
-      padding: 0 20px 0 20px;
-
-      p {
-        font-size: 25px;
-      }
-    }
-  }
-
-  .inner-container {
-    .svg-container {
-      img {
-        width: 65%;
-      }
-    }
-  } 
-}
-
-@media screen and (max-width: 420px), screen and (max-height: 570px) {
-  .main-container {
-    .para-container {
-       p {
-         font-size: 20px;
-       }
-    }
-
-    .inner-container {
-      .svg-container {
-        img {
-          width: 50%;
-        }
-      }
-    }
+@media (max-width: 1200px) {
+  .chibi {
+    width: 80%;
   }
 }
 
-
-@media screen and (max-width: 600px), screen and (max-height: 820px) {
-  
-  .main-container {
-    
-    .para-container {
-      font-size: 35px;
-    }
-
-    .inner-container {
-      .svg-container {
-        img {
-          width: 75%;
-        }
-      }
-    }
+@media (max-width: 700px) {
+  .chibi {
+    width: 70%;
   }
 }
 
+@media (max-width: 600px) {
+  .chibi {
+    visibility: hidden;
+  }
+  .title {
+    visibility: hidden;
+  }
+}
 
+@media (max-height: 850px) {
+  p {
+    padding: 0;
+    font-size: 80%;
+  }
+}
 
+@media (max-height: 700px) {
+  p {
+    font-size: 70%;
+  }
+}
+
+@media (max-height: 600px) {
+  p {
+    font-size: 55%;
+  }
+}

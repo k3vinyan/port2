@@ -21,7 +21,7 @@ const Home = () => {
 				<div className={HomeStyle.innerContainer}>
 					
 					<div className={HomeStyle.svgContainer}>
-						<img src={Chibi} alt="chibi" />
+						<img src={Chibi} alt="chibi" className={HomeStyle.chibi}/>
 					</div>
 
 					<div className={HomeStyle.titleContainer}>
