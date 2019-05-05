@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Rajdhani|Yanone+Kaffeesatz');
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: #292826;
+
+  .nav-container {
+    position: relative;
+    margin: 5vh;
+  }
+
+  .para-container{
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+  
+  }
+
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+
+    .svg-container {
+      text-align: center;
+    }
+
+    .title-container {
+      color: #FFFFFF;
+    }
+  }
+}
+
+
+@media (max-width: 380px){
+
+  .main-container {
+    .para-container {
+      padding: 0 20px 0 20px;
+      font-size: 30px;
+    }
+  }
+
+  .inner-container {
+    .svg-container {
+      img {
+        width: 65%;
+      }
+    }
+  } 
+}
+
+
+@media screen and (max-width: 600px), screen and (max-height: 820px) {
+  
+  .main-container {
+    
+    .para-container {
+      font-size: 35px;
+    }
+
+    .inner-container {
+      .svg-container {
+        img {
+          width: 75%;
+        }
+      }
+    }
+  }
+}
+
+
+

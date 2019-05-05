@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 816px) {
+   
+}
