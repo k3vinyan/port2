@@ -13,7 +13,7 @@ const Home = () => {
 					<Navlist />
 				</div>
 				<div className={HomeStyle.paraContainer}>
-					<p>"Hello, My name is Kevin Yan and I design and code beautifully simple things, 
+					<p className={HomeStyle.quote}>"Hello, My name is Kevin Yan and I design and code beautifully simple things, 
 						and I love what I do"
 					</p>
 				</div>
