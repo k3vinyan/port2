@@ -1,70 +1,79 @@
-a {
-  color: white;
-  text-decoration: none;
-}
-
 .nav-container {
     display: flex;
-    justify-content: center;  
-}
-
-.nav-list {
-    display: flex;
     justify-content: center;
-    list-style-type: none;
-    margin: auto;
+    margin: 0;  
+    width: 100%;
+
+    .nav-list {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: auto;
+
+      li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .navUpperslashPosition {
+        color: #FFFFFF;
+      }
+
+
+  }
 }
 
-
-.nav-item {
-    font-size: 9rem;
-    text-decoration: none;
-    color: blue;
-}
-
-  
 .active-nav-item {
     font-weight: bold;
 }
 
-.underbar{
-  
-  width: 0;
-  height: 5px;
-  background: rgba(100,100,200,0);
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 25px;
-  width: 0px;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+
+li {
+  margin: 0 10px;
 }
 
-li{
+@media (min-width: 800px) {
+  .underbar{
+  
+    width: 0;
+    height: 5px;
+    background: rgba(100,100,200,0);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 25px;
+    width: 0px;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  
+  li{
 
-  margin: 0 10px;
+    &:nth-of-type(1):hover ~ .underbar{
+      left: -306px;
+      width: 45px;
+      background: rgba(100,100,200,1);
+    }
+    &:nth-of-type(3):hover ~ .underbar{
+      left: -116px;
+      width: 53px;
+      background: rgba(100,100,200,1);
+    }
+    &:nth-of-type(5):hover ~ .underbar{
+      left: 75px;
+      width: 50px;
+      background: rgba(100,100,200,1);
+    }
+    &:nth-of-type(7):hover ~ .underbar{
+      left: 280px;
+      width: 70px;
+      background: rgba(100,100,200,1);
+    }
+    cursor: pointer;
+  }
 
-  &:nth-of-type(1):hover ~ .underbar{
-    left: -306px;
-    width: 45px;
-    background: rgba(100,100,200,1);
-  }
-  &:nth-of-type(3):hover ~ .underbar{
-    left: -116px;
-    width: 53px;
-    background: rgba(100,100,200,1);
-  }
-  &:nth-of-type(5):hover ~ .underbar{
-    left: 75px;
-    width: 50px;
-    background: rgba(100,100,200,1);
-  }
-  &:nth-of-type(7):hover ~ .underbar{
-    left: 280px;
-    width: 70px;
-    background: rgba(100,100,200,1);
-  }
-  cursor: pointer;
+  
+  
+
 }
