@@ -72,8 +72,10 @@ li {
     }
     cursor: pointer;
   }
+}
 
-  
-  
-
+@media (max-width: 450px) {
+  .nav-container {
+    margin: -20px;
+  } 
 }
