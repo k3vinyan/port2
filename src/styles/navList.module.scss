@@ -51,22 +51,22 @@ li {
   li{
 
     &:nth-of-type(1):hover ~ .underbar{
-      left: -306px;
+      left: -325px;
       width: 45px;
       background: rgba(100,100,200,1);
     }
     &:nth-of-type(3):hover ~ .underbar{
-      left: -116px;
-      width: 53px;
-      background: rgba(100,100,200,1);
-    }
-    &:nth-of-type(5):hover ~ .underbar{
-      left: 75px;
+      left: -144px;
       width: 50px;
       background: rgba(100,100,200,1);
     }
+    &:nth-of-type(5):hover ~ .underbar{
+      left: 70px;
+      width: 75px;
+      background: rgba(100,100,200,1);
+    }
     &:nth-of-type(7):hover ~ .underbar{
-      left: 280px;
+      left: 300px;
       width: 70px;
       background: rgba(100,100,200,1);
     }
