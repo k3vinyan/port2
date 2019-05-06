@@ -20,7 +20,7 @@ const Contact = () => {
                     <p>Makeven Yan</p>
                     <p>(408) 960-4418</p>
                     <p><a href="mailto:k3vinyan@gmail.com">k3vinyan@gmail.com</a></p>
-                    <p><a href="https://www.linkedin.com/in/k3vinyan/">linkedln</a></p>
+                    <p><a href="https://www.linkedin.com/in/k3vinyan/" target="_blank">linkedln</a></p>
                 </div>
             </div>
         </div>

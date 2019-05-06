@@ -16,23 +16,23 @@ const Project = () => {
             <div className={ProjectStyles.secondColumn}>
                 <div className={ProjectStyles.projectContainer} >
                     <div><h1 className={ProjectStyles.positionTitle}>DSF3-Flex | Full Stack Developer</h1></div>
-                    <div><p>Web application that help delivery facilities organzie, track, and relase incoming drivers for pickup and delivery of packages</p></div>
-                    <div><a href='https://github.com/k3vinyan/DSF3-Flex' className={ProjectStyles.link}>Github</a></div>
-                    <div><a href='https://dsf3-flex.herokuapp.com' className={ProjectStyles.link}>App</a></div>
+                    <div><p>Web application developed for an undisclosed company to help track, organize, onboard, and release incoming and outgoing drivers</p></div>
+                    <div><a href='https://github.com/k3vinyan/DSF3-Flex' target="_blank" className={ProjectStyles.link}>Github</a></div>
+                    <div><a href='#' className={ProjectStyles.link}><strike>App</strike></a><i className={ProjectStyles.italic}>  (site no longer operational)</i></div>
                 </div>
 
                 <div className={ProjectStyles.projectContainer} >
                     <div><h1 className={ProjectStyles.positionTitle}>Hack1n-Slash | Stack Developer</h1></div>
-                    <div><p>Web Application that allows users to improve their typing speed and accuracy by code provided by any Github accounts</p></div>
-                    <div><a href='https://github.com/k3vinyan/DSF3-Flex' className={ProjectStyles.link}>Github</a></div>
-                    <div><a href='https://dsf3-flex.herokuapp.com' className={ProjectStyles.link}>App</a></div>
+                    <div><p>Gamified coding application that allows users to improve their accuracy and speed while writing code based offof code samples fetched from public GitHub repositories</p></div>
+                    <div><a href='https://github.com/hdngo/TeamHACKIN' target="_blank" className={ProjectStyles.link}>Github</a></div>
+                    <div><a href='https://hack1n-slash.herokuapp.com/' target="_blank" className={ProjectStyles.link}>App</a></div>
                 </div>
 
                 <div className={ProjectStyles.projectContainer} >
                     <div><h1 className={ProjectStyles.positionTitle}>Car Wars | Full Stack Developer</h1></div>
-                    <div><p>Web Application of card game that borrows elements of the classic ‘War’ Card game</p></div>
-                    <div><a href='https://github.com/k3vinyan/DSF3-Flex' className={ProjectStyles.link}>Github</a></div>
-                    <div><a href='https://dsf3-flex.herokuapp.com' className={ProjectStyles.link}>App</a></div>
+                    <div><p>A unique card game that borrows elements of the classic card game War</p></div>
+                    <div><a href='https://github.com/k3vinyan/CardsWar' target="_blank" className={ProjectStyles.link}>Github</a></div>
+                    <div><a href='https://cardswar.herokuapp.com/' target="_blank" className={ProjectStyles.link}>App</a></div>
                 </div>
             </div>
         </div>

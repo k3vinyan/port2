@@ -3,6 +3,7 @@ import React from 'react';
 import Navlist from '../components/navlist';
 
 import aboutStyles from '../styles/about.module.scss';
+import aboutImage from '../images/about.svg';
 
 
 const About = () => {
@@ -11,6 +12,8 @@ const About = () => {
         <div className={aboutStyles.container} id="about">
             <div className={aboutStyles.firstColumn}>
                 <h1 className={aboutStyles.title}>About</h1>
+
+                {/* <img src={aboutImage} alt="about" className={aboutStyles.aboutImage} /> */}
 
                 <div className={aboutStyles.navContainer}><Navlist /></div>
 
