@@ -84,10 +84,10 @@
 }
 
 
-@media (max-width: 415px) {
+@media (max-width: 550px) {
     .container {
         
-         .first-column {
+        .first-column {
             min-height: 50vh;
 
             .title {
@@ -97,6 +97,12 @@
             .nav-container {
                 top: 35vh;
             }
-         }
+        }
+
+        .second-column {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
     }
  }
