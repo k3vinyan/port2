@@ -67,6 +67,8 @@
 
         .second-column {
             min-height: 100vh;
+            background: #292826;
+            color: #FFFFFF;
 
             .project-container {
 
@@ -98,11 +100,20 @@
                 top: 8vh;
             }
         }
-
         .second-column {
             display: flex;
             justify-content: center;
             align-items: center; 
+
+            .project-container {
+                .link {
+                    display: none;
+                }
+
+                i {
+                    display: none;
+                }
+            }
         }
     }
  }
