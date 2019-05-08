@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../js/helper';
 import Navlist from '../components/navlist';
 import Chibi from '../images/chibi.svg';
 import HomeStyle from '../styles/home.module.scss';
@@ -9,11 +9,11 @@ const Home = () => {
 	
     return (
 			<div className={HomeStyle.mainContainer} id="home">
-				<div className={HomeStyle.navContainer}>
-					<Navlist />
+				<div className={HomeStyle.navContainer} >
+					<Navlist id={HomeStyle.homeNav}/>
 				</div>
-				<div className={HomeStyle.paraContainer}>
-					<p className={HomeStyle.quote}>"Hello, My name is Kevin Yan and I design and code beautifully simple things, 
+				<div className={HomeStyle.paraContainer} id="home-para">
+					<p className={HomeStyle.quote}  >"Hello, My name is Kevin Yan and I design and code beautifully simple things, 
 						and I love what I do"
 					</p>
 				</div>
